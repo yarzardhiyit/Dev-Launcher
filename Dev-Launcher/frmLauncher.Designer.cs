@@ -55,6 +55,8 @@
             this.picExit.TabIndex = 6;
             this.picExit.TabStop = false;
             this.picExit.Click += new System.EventHandler(this.pictureBox7_Click);
+            this.picExit.MouseEnter += new System.EventHandler(this.picExit_MouseEnter);
+            this.picExit.MouseLeave += new System.EventHandler(this.picExit_MouseLeave);
             // 
             // picCmd
             // 
@@ -66,6 +68,8 @@
             this.picCmd.TabIndex = 5;
             this.picCmd.TabStop = false;
             this.picCmd.Click += new System.EventHandler(this.picCmd_Click);
+            this.picCmd.MouseEnter += new System.EventHandler(this.picCmd_MouseEnter);
+            this.picCmd.MouseLeave += new System.EventHandler(this.picCmd_MouseLeave);
             // 
             // picStackoverflow
             // 
@@ -77,6 +81,8 @@
             this.picStackoverflow.TabIndex = 4;
             this.picStackoverflow.TabStop = false;
             this.picStackoverflow.Click += new System.EventHandler(this.picStackoverflow_Click);
+            this.picStackoverflow.MouseEnter += new System.EventHandler(this.picStackoverflow_MouseEnter);
+            this.picStackoverflow.MouseLeave += new System.EventHandler(this.picStackoverflow_MouseLeave);
             // 
             // picGit
             // 
@@ -88,6 +94,8 @@
             this.picGit.TabIndex = 3;
             this.picGit.TabStop = false;
             this.picGit.Click += new System.EventHandler(this.picGit_Click);
+            this.picGit.MouseEnter += new System.EventHandler(this.picGit_MouseEnter);
+            this.picGit.MouseLeave += new System.EventHandler(this.picGit_MouseLeave);
             // 
             // picVscode
             // 
@@ -99,6 +107,8 @@
             this.picVscode.TabIndex = 2;
             this.picVscode.TabStop = false;
             this.picVscode.Click += new System.EventHandler(this.picVscode_Click);
+            this.picVscode.MouseEnter += new System.EventHandler(this.picVscode_MouseEnter);
+            this.picVscode.MouseLeave += new System.EventHandler(this.picVscode_MouseLeave);
             // 
             // picVscommunity
             // 
@@ -110,9 +120,12 @@
             this.picVscommunity.TabIndex = 1;
             this.picVscommunity.TabStop = false;
             this.picVscommunity.Click += new System.EventHandler(this.picVscommunity_Click);
+            this.picVscommunity.MouseEnter += new System.EventHandler(this.picVscommunity_MouseEnter);
+            this.picVscommunity.MouseLeave += new System.EventHandler(this.picVscommunity_MouseLeave);
             // 
             // picIntellij
             // 
+            this.picIntellij.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
             this.picIntellij.Image = global::Dev_Launcher.Properties.Resources.intellij;
             this.picIntellij.Location = new System.Drawing.Point(13, 12);
             this.picIntellij.Name = "picIntellij";
@@ -121,6 +134,8 @@
             this.picIntellij.TabIndex = 0;
             this.picIntellij.TabStop = false;
             this.picIntellij.Click += new System.EventHandler(this.pictureBox1_Click);
+            this.picIntellij.MouseEnter += new System.EventHandler(this.picIntellij_MouseEnter);
+            this.picIntellij.MouseLeave += new System.EventHandler(this.picIntellij_MouseLeave);
             // 
             // lblCopyRight
             // 
