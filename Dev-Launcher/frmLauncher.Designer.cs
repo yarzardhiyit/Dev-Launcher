@@ -146,6 +146,7 @@
             this.Controls.Add(this.picVscode);
             this.Controls.Add(this.picVscommunity);
             this.Controls.Add(this.picIntellij);
+            this.MaximizeBox = false;
             this.Name = "frmLauncher";
             this.Text = "DEV: Essential Launcher";
             ((System.ComponentModel.ISupportInitialize)(this.picExit)).EndInit();
