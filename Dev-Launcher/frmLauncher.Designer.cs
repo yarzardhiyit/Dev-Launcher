@@ -147,6 +147,8 @@
             this.Controls.Add(this.picVscommunity);
             this.Controls.Add(this.picIntellij);
             this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(780, 200);
+            this.MinimumSize = new System.Drawing.Size(780, 200);
             this.Name = "frmLauncher";
             this.Text = "DEV: Essential Launcher";
             ((System.ComponentModel.ISupportInitialize)(this.picExit)).EndInit();
