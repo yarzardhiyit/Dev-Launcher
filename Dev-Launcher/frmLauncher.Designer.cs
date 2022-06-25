@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLauncher));
             this.picExit = new System.Windows.Forms.PictureBox();
             this.picCmd = new System.Windows.Forms.PictureBox();
             this.picStackoverflow = new System.Windows.Forms.PictureBox();
